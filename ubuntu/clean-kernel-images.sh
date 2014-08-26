@@ -3,6 +3,8 @@
 # clean-kernel-images.sh
 # ----------------------
 # removes old kernel images from /boot 
+#
+# useful when apt cannot run becasue your /boot drive is full.
 # 
 # does so by creating a list of kernel images in /tmp/oldimages and 
 # then calling apt-get purge for each. Use this two ways:
